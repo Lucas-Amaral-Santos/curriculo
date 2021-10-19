@@ -60,15 +60,16 @@ h1 {
 	padding: 2%;
 	border-style: solid;
 	border-color: gray;
+	position: relative;
 	border-radius: 10px;
 	font-family: 'arial';
 	width: 70%;
 }
 
 .texto-informacao {
-	font-size: 120%;
+	font-size: 100%;
 	float: right;
-	width: 70%;
+	width: 67%;
 	position: relative;
 }
 
@@ -139,6 +140,7 @@ img {
 	border-style: solid;
 	border-color: grey;
 	border-radius: 2%;
+	position: relative;
 	width: 25%;
 }
 
