@@ -69,6 +69,7 @@ h1 {
 	font-size: 100%;
 	float: right;
 	width: 70%;
+	position: relative;
 }
 
 .formacao {
