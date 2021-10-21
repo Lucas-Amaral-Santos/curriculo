@@ -54,13 +54,11 @@ h1 {
 }
 
 .posicao {
-	position: relative;
 	margin: 5% 15% 0% 15%;
 	background-color: whitesmoke;
 	padding: 2%;
 	border-style: solid;
 	border-color: gray;
-	position: relative;
 	border-radius: 10px;
 	font-family: 'arial';
 	width: 70%;
@@ -70,7 +68,9 @@ h1 {
 	font-size: 100%;
 	float: right;
 	width: 67%;
-	position: relative;
+	position: absolute;
+	left: 40%;
+	top: 8%;
 }
 
 .formacao {
@@ -90,18 +90,16 @@ h1 {
 }
 
 .redes-sociais{
-	width: 100px;
-	height: 50px;
+	width: 10%;
+	height: 25%;
 	position: absolute;
 	display: inline-block;
 	text-align: center;
 	background-color: lightgray;
-	float: right;
 	border-style: solid;
 	border-radius: 2%;
 	border-color: grey;
-	bottom: 5%;
-	right: 5%;
+	right: 30%;
 }
 
 .telefone{
@@ -112,15 +110,12 @@ h1 {
 }
 
 .phone-icon {
-	width: 15%;
-	position: absolute;
+	width: 10%;
 	display: inline-block;
-	margin-left: 10%;
-	right: 35%;
-	top: 30%;
+	margin: 3% 35% 0% 0%;
 }
 .phone-text {
-	width: 50%;
+	width: 40%;
 	float: left;
 }
 
@@ -136,7 +131,7 @@ svg {
 	padding-right: 3% ;
 }
 
-img {
+img.perfil {
 	border-style: solid;
 	border-color: grey;
 	border-radius: 2%;
@@ -152,4 +147,21 @@ img {
 	text-align: center;
 	font-family: 'arial';
 	font-size: 20pt;
+}
+
+
+.foto_uff {
+
+	border-style: none;
+}
+
+.img_uff {
+	width: 100%;
+}
+
+.img_iff {
+	width: 100%;
+}
+
+.texto-uff {
 }
