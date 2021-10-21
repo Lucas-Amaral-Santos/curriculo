@@ -1,7 +1,7 @@
 body{
 	margin: 0 auto;
 	padding: 0 auto;
-	background-color: gray;
+	background-color: beige;
 }
 
 .body {
@@ -82,24 +82,37 @@ h1 {
 	
 }
 
+.sobre {
+
+}
+
+.sobre p{
+	text-align: justify;
+}
+
+.sobre-texto {
+	padding: 0% 7% 5%;
+}
 
 .projetos {
 }
 
 .redes-sociais{
-	width: 15%;
 	margin-top: 2%;
+	max-width: 10%;
+	height: auto;
 	text-align: center;
 	background-color: lightgray;
 	/*border-style: solid;*/
-/*s	padding: 10%;*/
 	border-radius: 15%;
 	/*border-color: grey;*/
 	/*top: 30%;*/
 }
 
 .redes-sociais svg{
-	margin: 10%;
+	max-width: 100%;
+	margin: 2%;
+	height: auto;
 }
 
 .telefone{
@@ -115,19 +128,20 @@ h1 {
 	margin: 3% 35% 0% 0%;
 }
 .phone-text {
-	width: 40%;
+	max-width: 50%;
 	float: left;
+	margin-right: 2%;
 }
 
 .telefone svg {
-	width: 20px;
+	max-width: 50px;
 	fill: black;
 }
 
 svg {
 	width: 35%;
 	fill: white;
-	height: 90%;
+	height: auto;
 	padding-right: 3% ;
 }
 
@@ -136,18 +150,20 @@ img.perfil {
 	border-color: grey;
 	border-radius: 2%;
 	position: relative;
-	width: 25%;
+	/*width: 25%;*/
 	margin-right: 3%;
+	height: auto;
+    max-width: 100%;
 }
 
 
 
 .footer {
-	padding: 2%;
+	padding: 3%;
 	background-color: gray;
 	text-align: center;
 	font-family: 'arial';
-	font-size: 20pt;
+	font-size: 15pt;
 }
 
 
